@@ -37,4 +37,4 @@ jobs:
         with:
           # Use a PAT/GitHub App token in RENOVATE_TOKEN if you want Renovate PRs
           # to trigger other workflows; otherwise falls back to GITHUB_TOKEN.
-          token: ${{ secrets.RENOVATE_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{secrets.GH-TOKEN }}
